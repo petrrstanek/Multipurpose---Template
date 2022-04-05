@@ -1,0 +1,22 @@
+#header {
+  @extend %header;
+  img {
+    width: 45%;
+    position: absolute;
+    bottom: -1px;
+  }
+  .heading-box {
+    flex: 0 1 300px;
+    @include respond(phone) {
+      position: absolute;
+      left: 50%;
+      top: 40%;
+      transform: translate(-50%, -50%);
+    }
+  }
+}
+
+#header-secondary {
+  @extend %header;
+  height: 350px;
+}

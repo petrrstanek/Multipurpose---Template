@@ -1,0 +1,17 @@
+#info {
+  background-color: $color-black;
+  height: 300px;
+  color: aliceblue;
+  .info-box {
+    display: flex;
+    circle {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      background-image: linear-gradient(to right, $color-primary, $color-secondary);
+    }
+    &__info {
+      color: $color-grey;
+    }
+  }
+}

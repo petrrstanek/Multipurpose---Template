@@ -1,0 +1,11 @@
+#references {
+  background-color: #eceef0;
+  height: 350px;
+  position: relative;
+  top: -80px;
+  z-index: -1;
+  clip-path: ellipse(100% 100% at 50% 0%);
+  img {
+    width: 150px;
+  }
+}

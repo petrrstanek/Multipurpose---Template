@@ -1,0 +1,27 @@
+//# ABSTRACTS
+@import './abstracts/mixins';
+@import './abstracts/variables';
+@import './abstracts/utilities';
+
+//#BASE
+@import './base/animations';
+@import './base/base';
+@import './base/typography';
+
+//#PAGES
+@import './pages/home';
+@import './pages/about';
+
+//#COMPONENTS
+@import './components/benefits';
+@import './components/flip-card';
+@import './components/references';
+@import './components/info';
+@import './components/profile-card';
+
+//#LAYOUT
+@import './layout/footer';
+@import './layout/header';
+
+//#BOOTSTRAP
+@import '../../node_modules/bootstrap/scss/bootstrap';

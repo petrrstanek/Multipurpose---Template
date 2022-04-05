@@ -1,0 +1,24 @@
+#pricing {
+  .flip-card {
+    height: 500px;
+    flex: 1;
+    border-radius: 10px;
+    background-color: $color-grey;
+    &__desc {
+      display: flex;
+
+      svg {
+        width: 20px;
+        height: 20px;
+      }
+    }
+  }
+
+  picture {
+    img {
+      height: 300px;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+}

@@ -1,0 +1,17 @@
+#benefits {
+  .benefits {
+    &__circle {
+      background-image: linear-gradient(to right bottom, $color-primary, $color-secondary);
+      height: 80px;
+      width: 80px;
+      border-radius: 50%;
+      position: relative;
+
+      svg {
+        height: 30px;
+        width: 30px;
+        @include absCenter;
+      }
+    }
+  }
+}
