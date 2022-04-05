@@ -2,8 +2,7 @@ html body {
   font-family: 'Rubik', sans-serif;
 }
 
-.heading-primary {
-}
-
-.heading-secondary {
+.heading-box {
+  @include absCenter;
+  color: white;
 }

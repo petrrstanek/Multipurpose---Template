@@ -1,0 +1,11 @@
+#pricing {
+  .flip-card {
+    height: 430px;
+    flex: 0 1 320px;
+    svg {
+      fill: $color-secondary;
+      width: 40px;
+      height: 40px;
+    }
+  }
+}
